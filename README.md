@@ -1,3 +1,6 @@
+## Names
+Bianca Davies
+
 ## My Web Application (Title)
 
 * [General info](#general-info)
