@@ -25,7 +25,7 @@
     <!-- Header Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-warning">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Team45</a>
+            <a class="navbar-brand" href="./main.html">Team45</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -33,16 +33,27 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="./main.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="./FAQ.html">FAQ</a></li>
+                         </ul>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./forums.html">Forum</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">features</a>
+                        <a class="nav-link" href="./profile.html">Profile</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">profile</a>
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Login</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Account</a>
+                    <li id="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Sign Up</a>
                     </li>
                 </ul>
             </div>
@@ -57,7 +68,10 @@
     <div>
         <nav class="navbar fixed-bottom navbar-light bg-light">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#">This is the Footer</a>
+            <span class="navbar-text">&copy; Team45 Inc 2021</span>
+            <a class="navbar-brand" href="https://www.facebook.com">Facebook</a> <!--placeholder for FB icon-->
+            <a class="navbar-brand" href="https://www.twitter.com">Twitter</a> <!--placeholder for Twitter icon-->
+            <a class="navbar-brand" href="https://www.instagram.com">Instagram</a> <!--placeholder for Instagram icon-->
             </div>
         </nav>
     </div>
