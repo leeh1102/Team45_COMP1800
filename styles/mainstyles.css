@@ -1,0 +1,29 @@
+body {
+    background-color: #BDD4E7;
+}
+
+.page-content {
+    background-color: #AAB9CF;
+    margin: 5vw;
+    margin-top: 15px;
+    padding: 12px;
+    width: 90vw;
+}
+
+h1, p, a, li {
+    color: #212227;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    background-color: #8693AB;
+}
+
+.footer {
+    height: 60px;
+}
+
+.btn {
+    background-color: #637074;
+    color: whitesmoke;
+}
